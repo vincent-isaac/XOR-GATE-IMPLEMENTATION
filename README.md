@@ -25,11 +25,9 @@ RegisterNumber :  212220230060
 */
 ```
 ```python
-
 import numpy as np
 from keras.models import Sequential
 from keras.layers.core import Dense
-
 training_data=np.array([[0,0],[0,1],[1,0],[1,1]],"float32")
 target_data=np.array([[0],[1],[1],[0]],"float32")
 
@@ -49,10 +47,6 @@ print(model.predict(training_data).round())
 
 ## Output:
 ![Capture11](https://user-images.githubusercontent.com/75234588/169310405-0e4c1c07-7e5a-4d7b-99ae-3f09b510a745.PNG)
-
-
-
-
 
 ## Result:
 Thus the python program successully implemented XOR logic gate.
