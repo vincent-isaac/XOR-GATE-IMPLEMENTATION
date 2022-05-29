@@ -19,6 +19,9 @@ The information of a neural network is stored in the interconnections between th
 4. Train the model with training data.
 5. Now test the model with testing data.
 
+<br>
+<br>
+
 ## Program:
 ```
 /*
